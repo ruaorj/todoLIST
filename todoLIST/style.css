@@ -1,0 +1,47 @@
+#createdThings{
+    padding: 20px;
+    height: 700px;
+    width: 700px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+#createdThings div{
+    display: flex;
+}
+
+#createdThings p {
+    margin-right: 5px;
+    width: 100%;
+    font-size: 16px; /* Yazı boyutu */
+    color: #333; /* Yazı rengi */
+    line-height: 1.5; /* Satır yüksekliği */
+    margin: 0 0 10px 0; /* Alt boşluk, diğer kenarlarda boşluk yok */
+    padding: 5px; /* Paragrafın etrafında biraz iç boşluk */
+    background-color: #f9f9f9; /* Hafif gri arka plan rengi */
+    border-radius: 20px;
+    border: 3px solid #ccc;
+    max-width: 530px;
+overflow-x: auto;
+}
+  
+.btn-success{
+    background-color:rgb(170, 255, 0);
+    height: 40px;
+    width: 70px;
+    margin-left: 5px;
+    background-image: url('pictures/done.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-danger{
+    margin-left: 5px;
+    background-color: red;
+    height: 40px;
+    width: 70px;
+    background-image: url('pictures/delete.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
