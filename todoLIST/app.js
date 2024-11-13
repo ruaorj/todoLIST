@@ -8,6 +8,8 @@ if(textAreaContent.trim() != ""){
     
     addTaskToDOM(textAreaContent);
     saveToLocalStorage(textAreaContent);   
+
+    document.querySelector("#textArea").value = '';
 }
 else{
     alert("Please type some mission!");
